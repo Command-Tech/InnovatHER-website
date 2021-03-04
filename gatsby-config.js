@@ -6,5 +6,5 @@
 
 module.exports = {
   /* Your site config here */
-  plugins: [],
+  plugins: ["@chakra-ui/gatsby-plugin"],
 }
