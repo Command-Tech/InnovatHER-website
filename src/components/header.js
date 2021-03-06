@@ -9,7 +9,7 @@ const Header = () => (
           <HStack spacing="25px">
             <Link to="/">Home</Link>
             <Link to="/">Guidelines</Link>
-            <Link to="/">Gallery</Link>
+            <Link to="/gallery">Gallery</Link>
             <Link to ="/">Contact</Link>
           </HStack>
         </Center>

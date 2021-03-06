@@ -1,13 +1,25 @@
 import React from 'react'
-import { Box, Text, Button } from '@chakra-ui/react'
+import { Box, Text, Button, Flex, Image } from '@chakra-ui/react'
 
 const Hero = () => (
   <div>
-    <Box bg="blue.100" p="10">
-        <Text fontSize="lg" textAlign="left">girl genius x command tech</Text>
-        <Text fontSize="4xl" fontWeight="extrabold">community</Text>
-        <Text fontSize="4xl" fontWeight="extrabold">highlights</Text><br />
-        <Button borderRadius="20" color="white" _hover={{ bg: "red.500" }} bgGradient="linear(rgba(0,178,255,1) 0%, rgba(22,217,255,1))" className="primary-btn">Learn more</Button>
+    <Box bg="#DEE1F7" p="20">
+      <Flex direction="row">
+      <Box>
+        <Box>
+          <Text fontSize="lg" textAlign="left">girl genius x command tech</Text>
+          <Text fontSize="6xl" fontWeight="extrabold">InnovatHer</Text>
+          <Text fontSize="2xl" fontWeight="extrabold">community highlights</Text>
+        </Box><br />
+          <Flex>
+            <Button mr={5} color="white" bg="#72A1FF" borderRadius="20px" _hover={{ transform: "scale(1.1)", boxShadow: "0px 0px 5px 0px gray", }}>Learn more</Button>
+            <Button color="#5991FF" borderColor="#72A1FF" bg="white" borderWidth="2px" borderRadius="20px" _hover={{ transform: "scale(1.1)", boxShadow: "0px 0px 5px 0px gray", }}>Get Started</Button>
+          </Flex>
+      </Box>
+        <Box>
+          <Image src="https://cloud-bzwn1zkwq-hack-club-bot.vercel.app/0ggct.png" alt="Girl Genius x Command Tech" w="70%" justifyContent="flex-end" />
+        </Box>
+        </Flex>
     </Box>
   </div>
 )

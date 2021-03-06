@@ -1,10 +1,10 @@
-import { ChakraProvider, Text, Box, Flex, Image, Spacer, Grid, GridItem } from '@chakra-ui/react'
+import { ChakraProvider, Text, Image, Grid, GridItem } from '@chakra-ui/react'
 import React from 'react'
 
 const About = () => (
     <ChakraProvider>
-        <Image src="https://cloud-ec6220g5o-hack-club-bot.vercel.app/1top_wave.png" alt="wave"/>
-        <Grid templateColumns="repeat(5, 1fr)" gap={4} margin="-1">
+        {/* <Image src="https://cloud-ec6220g5o-hack-club-bot.vercel.app/1top_wave.png" alt="wave" /> */}
+        <Grid templateColumns="repeat(5, 1fr)" gap={4}>
             <GridItem colSpan={3} ml={20} my="auto">
                 <Text fontSize="4xl" fontWeight="bold">About</Text>
                 <Text>
@@ -15,7 +15,7 @@ const About = () => (
                 <Image src="https://cloud-emjkczki5-hack-club-bot.vercel.app/0technology.png" alt="hii" />
             </GridItem>
         </Grid>
-        <Image src="https://cloud-ec6220g5o-hack-club-bot.vercel.app/0bottom_wave.png" alt="wave"/>
+        {/* <Image src="https://cloud-ec6220g5o-hack-club-bot.vercel.app/0bottom_wave.png" alt="wave"/> */}
 
     </ChakraProvider>
 )

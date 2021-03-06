@@ -5,7 +5,7 @@ const Footer = () => (
     <ChakraProvider>
         <Box p={5}>
             <hr /><br />
-            <Text textAlign="center">All Rights Reserved.</Text>
+            <Text textAlign="center">Command Tech x Girl Genius, 2021. No rights reserved.</Text>
         </Box>
     </ChakraProvider>
 )
