@@ -5,9 +5,9 @@
  */
 
 module.exports = {
-  siteMetaData: {
+  siteMetadata: {
     title: `InnovatHER`,
-    siteUrl: `https://march.commandtech.codes`,
+    siteUrl: `https://innovate.commandtech.codes`,
     description: `InnovatHER: highlighting your accomplishments-- no matter how big or small.`
   },
   /* Your site config here */

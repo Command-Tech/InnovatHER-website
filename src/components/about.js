@@ -8,7 +8,7 @@ const About = () => (
             <GridItem colSpan={3} ml={20} my="auto">
                 <Text fontSize="4xl" fontWeight="bold">About</Text>
                 <Text>
-                Command Tech x Girl Genius Community Highlights aims to celebrate YOUR accomplishments, no matter how big or how small! We want to create an online community to support each other so we can all build our own confidence and become a future LEADER! P.S. There are prizes!
+                Command Tech x Girl Genius InnovatHER 2021 aims to celebrate YOUR accomplishments, no matter how big or how small! We want to create an online community to support each other so we can all build our own confidence and become a future LEADER! A bonus, there are prizes!
                 </Text>
             </GridItem>
             <GridItem colStart={4} colEnd={6}>

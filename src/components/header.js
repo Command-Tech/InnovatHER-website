@@ -4,11 +4,11 @@ import { ChakraProvider, HStack, Box, Center } from '@chakra-ui/react'
 
 const Header = () => (
   <ChakraProvider>
-    <Box bg="gray.100" p="5" mx="auto" textAlign="center">
+    <Box bg="#FBFBFB" p="5" mx="auto" textAlign="center" boxShadow="base">
         <Center>
           <HStack spacing="25px">
             <Link to="/">Home</Link>
-            <Link to="/">Guidelines</Link>
+            <Link to="/guidelines">Guidelines</Link>
             <Link to="/gallery">Gallery</Link>
             <Link to ="/">Contact</Link>
           </HStack>

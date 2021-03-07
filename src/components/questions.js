@@ -4,7 +4,7 @@ import { ChakraProvider, HStack, Box, Center, Button, VStack, Text, Image } from
 const Questions = () => (
   <ChakraProvider>
       <Box w="100%" m={0} p={10}>
-          <VStack p={3} mx={20}>
+          <VStack p={3} mx={10}>
               <Text textAlign="center" fontSize="4xl" fontWeight='bold'>Questions?</Text>
               <Text textAlign="center">
                  We are happy to answer any questions you may have. Ask in the Girl Genius Slack or Command Tech Discord Community, and we will get back to you shortly!
