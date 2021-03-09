@@ -11,5 +11,5 @@ module.exports = {
     description: `InnovatHER: highlighting your accomplishments-- no matter how big or small.`
   },
   /* Your site config here */
-  plugins: ["@chakra-ui/gatsby-plugin"],
+  plugins: [`@chakra-ui/gatsby-plugin`, `gatsby-plugin-react-helmet`],
 }
