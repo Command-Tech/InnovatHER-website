@@ -6,7 +6,7 @@ const Hero = () => (
   <div>
     <Box bg="#DEE1F7" p="20">
       <Flex direction="row">
-      <Box>
+      <Box ml={100}>
         <Box>
           <Text fontSize="lg" textAlign="left">girl genius x command tech</Text>
           <Text fontSize="6xl" fontWeight="extrabold">InnovatHer</Text>
@@ -18,7 +18,7 @@ const Hero = () => (
           </Box>
       </Box>
       <Spacer />
-        <Box overflow="hidden" h={200}>
+        <Box overflow="hidden" h={200} mr={40}>
           <Image src="https://cloud-5ydsuceme-hack-club-bot.vercel.app/1women_in_stem_history_transparent.png" alt="Women in Stem History" w={200} mt="-100px" justifyContent="flex-end" />
         </Box>
         </Flex>

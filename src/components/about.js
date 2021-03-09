@@ -5,7 +5,7 @@ import { Link } from 'gatsby'
 const About = () => (
     <ChakraProvider>
         {/* <Image src="https://cloud-ec6220g5o-hack-club-bot.vercel.app/1top_wave.png" alt="wave" /> */}
-        <Grid templateColumns="repeat(5, 1fr)" gap={4}>
+        <Grid templateColumns="repeat(5, 1fr)" gap={4} mx={20}>
             <GridItem colSpan={3} ml={20} my="auto" py={10}>
                 <Text fontSize="4xl" fontWeight="bold">About</Text>
                 <Text fontSize="lg">
