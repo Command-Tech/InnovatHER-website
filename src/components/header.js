@@ -9,8 +9,8 @@ const Header = () => (
           <HStack spacing="25px">
             <Link to="/">Home</Link>
             <Link to="/guidelines">Guidelines</Link>
-            <Link to="/gallery">Gallery</Link>
-            <Link to ="/">Contact</Link>
+            <a href="https://airtable.com/shrMBfy9t74j8PAxc">Gallery</a>
+            <a href="mailto:info@commandtech.codes">Contact</a>
           </HStack>
         </Center>
     </Box>

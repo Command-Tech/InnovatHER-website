@@ -18,8 +18,8 @@ const Hero = () => (
           </Box>
       </Box>
       <Spacer />
-        <Box>
-          <Image src="https://cloud-bzwn1zkwq-hack-club-bot.vercel.app/0ggct.png" alt="Girl Genius x Command Tech" w="70%" justifyContent="flex-end" />
+        <Box overflow="hidden" h={200}>
+          <Image src="https://cloud-5ydsuceme-hack-club-bot.vercel.app/1women_in_stem_history_transparent.png" alt="Women in Stem History" w={200} mt="-100px" justifyContent="flex-end" />
         </Box>
         </Flex>
     </Box>

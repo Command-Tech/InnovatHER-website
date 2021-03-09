@@ -4,6 +4,7 @@ import Header from '../components/header'
 import Footer from '../components/footer'
 import About from '../components/about'
 import Card from '../components/card'
+import Head from '../components/head'
 import { ChakraProvider, extendTheme, Box } from '@chakra-ui/react'
 import Questions from "../components/questions"
 import "@fontsource/montserrat"
@@ -22,6 +23,7 @@ export default function Home() {
 
   return (
     <ChakraProvider theme={theme}>
+      <Head />
       <Header />
       <Hero />
       <About />
