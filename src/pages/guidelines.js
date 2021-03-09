@@ -1,19 +1,21 @@
 import React from "react"
 import Header from '../components/header'
 import Footer from '../components/footer'
+import Head from '../components/head'
 import { Link } from "gatsby"
-import { ChakraProvider, Box, Text, UnorderedList, ListItem } from '@chakra-ui/react'
+import { ChakraProvider, Box, Text, UnorderedList, ListItem, Accordion, AccordionItem, AccordionButton, AccordionPanel, AccordionIcon } from '@chakra-ui/react'
 
 
 export default function Rules() {
   return (
     <ChakraProvider>
+      <Head />
       <Header />
         <Box bg="#DEE1F7" p={10}>
             <Text fontSize="5xl" fontWeight="bold" textAlign="center">Guidelines</Text>
             <Text textAlign="center">Interested in participating? Get started here by reading the guidelines below. You can submit a project <strong><Link to="/submit">here</Link></strong> afterwards!</Text>
         </Box>
-        <Box px={30} py={10} bg="#DEE1F7">
+        <Box px={100} py={10}>
             <Text fontSize="xl" fontWeight="bold">👋🏼 Hey There!</Text>
             <Text>We're super excited that you're interested in participating in InnovatHER! Now, there will be prizes, but the focus of this event is to celebrate YOUR accomplishments—no matter how big or how small! We are confident that anyone can pursue careers in STEAM and challenge conventional gender standards.</Text>
             <br/>
@@ -30,6 +32,101 @@ export default function Rules() {
                 <ListItem>Follow Girl Genius <a href="https://instagram.com/girlgeniusmag">(@girlgeniusmag)</a> and Command Tech <a href="https://instagram.com/commandtech">(@commandtech)</a> on Instagram (we will be checking!)</ListItem>
             </UnorderedList>
         </Box>
+        {/* FAQs */}
+        <Box p={10} bg="#DEE1F7">
+            <Text fontSize="5xl" fontWeight="bold" textAlign="center">Frequently Asked Questions</Text>
+            <Text textAlign="center">Have a question? It might be answered below! If not, feel free to ask via email, Slack, or Discord.</Text>
+        </Box><br/>
+        {/* Begin accordion */}
+
+        <Box px={100}>
+        <Accordion defaultIndex={[0]} allowMultiple>
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex="1" textAlign="left">
+                  I'm not sure what to submit. Do you have any suggestions?
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                Yep! Feel free to ask us for suggestions!
+              </AccordionPanel>
+            </AccordionItem>
+
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex="1" textAlign="left">
+                  Can I submit multiple projects?
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                Yes, you can submit multiple projects, but are focusing on the quality of your submissions, rather than the quantity. 
+              </AccordionPanel>
+            </AccordionItem>
+
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex="1" textAlign="left">
+                  Is this opportunity open internationally?
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+              Yes! International students can submit projects. There are no geographical limits.
+              </AccordionPanel>
+            </AccordionItem>
+
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex="1" textAlign="left">
+                  How will submissions be judged?
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                To be announced soon!
+              </AccordionPanel>
+            </AccordionItem>
+
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex="1" textAlign="left">
+                  How can I view everyone else's projects? 
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+                  View the gallery <a href="https://airtable.com/shrMBfy9t74j8PAxc"><strong>here!</strong></a>
+              </AccordionPanel>
+            </AccordionItem>
+
+            <AccordionItem>
+              <h2>
+                <AccordionButton>
+                  <Box flex="1" textAlign="left">
+                    I have a question that isn't answered here.
+                  </Box>
+                  <AccordionIcon />
+                </AccordionButton>
+              </h2>
+              <AccordionPanel pb={4}>
+              DM Shivali [Director] or Belle on the Girl Genius Community Slack for any other questions you may have.
+              </AccordionPanel>
+            </AccordionItem>
+          </Accordion>
+        </Box>
+
       <Footer />
     </ChakraProvider>
   )
