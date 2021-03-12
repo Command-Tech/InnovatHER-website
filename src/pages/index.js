@@ -7,10 +7,7 @@ import Card from '../components/card'
 import Head from '../components/head'
 import { ChakraProvider, extendTheme, Box } from '@chakra-ui/react'
 import Questions from "../components/questions"
-import "@fontsource/montserrat"
-// import { Fonts } from '../components/fonts'
 import './pages.css'
-
 
 export default function Home() {
 

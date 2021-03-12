@@ -4,6 +4,7 @@ import { Helmet } from 'react-helmet'
 const Head = () => {
     return (
         <Helmet>
+            <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
             <title>InnovatHER | Community Highlights</title>
             <meta name="description" content="Command Tech x Girl Genius Community Highlights Project." />
 

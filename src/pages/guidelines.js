@@ -15,7 +15,7 @@ export default function Rules() {
             <Text fontSize="5xl" fontWeight="bold" textAlign="center">Guidelines</Text>
             <Text textAlign="center">Interested in participating? Get started here by reading the guidelines below. You can submit a project <strong><Link to="/submit">here</Link></strong> afterwards!</Text>
         </Box>
-        <Box px={100} py={10}>
+        <Box px={[ 6, 20, 100]} py={10}>
             <Text fontSize="xl" fontWeight="bold">👋🏼 Hey There!</Text>
             <Text>We're super excited that you're interested in participating in InnovatHER! Now, there will be prizes, but the focus of this event is to celebrate YOUR accomplishments—no matter how big or how small! We are confident that anyone can pursue careers in STEAM and challenge conventional gender standards.</Text>
             <br/>
@@ -39,7 +39,7 @@ export default function Rules() {
         </Box><br/>
         {/* Begin accordion */}
 
-        <Box px={100}>
+        <Box px={[ 6, 20, 100]}>
         <Accordion defaultIndex={[0]} allowMultiple>
             <AccordionItem>
               <h2>
@@ -51,7 +51,15 @@ export default function Rules() {
                 </AccordionButton>
               </h2>
               <AccordionPanel pb={4}>
-                Yep! Feel free to ask us for suggestions!
+                <ul>
+                  <li>App/Web design prototype</li>
+                  <li>Drawings</li>
+                  <li>A hardware project</li>
+                  <li>Winning a maths competition</li>
+                  <li>Software project</li>
+                  <li>A poem</li>
+                  <li>Anything and everything that fits under STEAM (science, technology, engineering, arts, mathematics) is open for submission!</li>
+                </ul>
               </AccordionPanel>
             </AccordionItem>
 
