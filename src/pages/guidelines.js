@@ -27,7 +27,7 @@ export default function Rules() {
             <Text fontSize="xl" fontWeight="bold">👩🏽‍💻  InnovatHER Eligibility</Text>
             <UnorderedList>
                 <ListItem>Identify as female or nonbinary (trans-inclusive)</ListItem>
-                <ListItem>Be 14-19 years old by March 31st, 2021</ListItem>
+                <ListItem>Be a high school or college student</ListItem>
                 <ListItem>Created a project (either group or solo) that falls into one of these categories: Science, Technology, Engineering, Art, Math, Interdisciplinary. The project can be in-progress or completed! <strong><em>All projects must be your own original work otherwise you will be disqualified.</em></strong></ListItem>
                 <ListItem>Follow Girl Genius <a href="https://instagram.com/girlgeniusmag">(@girlgeniusmag)</a> and Command Tech <a href="https://instagram.com/commandtech">(@commandtech)</a> on Instagram (we will be checking!)</ListItem>
             </UnorderedList>

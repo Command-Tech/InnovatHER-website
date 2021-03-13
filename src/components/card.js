@@ -4,7 +4,7 @@ import { Link } from 'gatsby'
 
 const Card = () => (
     <ChakraProvider>
-        <Image src="https://cloud-bp07vwmru-hack-club-bot.vercel.app/0bottom_wave.png" alt="wave" width="100%" />
+        {/* <Image src="https://cloud-bp07vwmru-hack-club-bot.vercel.app/0bottom_wave.png" alt="wave" width="100%" /> */}
         <Box bg="#DEE1F7" p={10}>
      <Box mx={[ 2, 10, 20]} borderRadius={20} color="black" p={7} border="2px" borderColor="gray.100" bg="white">
         <Text fontWeight="bold" fontSize="4xl" textAlign="center">Get Started</Text><br/>

@@ -7,7 +7,7 @@ const About = () => (
         <Image src="https://cloud-2ct6duudl-hack-club-bot.vercel.app/0bottomwave.png" alt="wave" w="100%" />
 
         <Flex display="flex" flexDirection="row" flexWrap="wrap">
-            <Box margin="auto" w="40rem" px={5} py={10}>
+            <Box margin="auto" w="40rem" px={5} py={10} pb={20} pt={20}>
                 <Text fontSize="4xl" fontWeight="bold">About</Text>
                 <Text fontSize="lg">
                 Command Tech x Girl Genius InnovatHER 2021 aims to celebrate YOUR accomplishments, no matter how big or how small! We want to create an online community to support each other so we can all build our own confidence and become a future LEADER! A bonus, there are prizes!

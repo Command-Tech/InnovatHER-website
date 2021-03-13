@@ -6,7 +6,7 @@ const Hero = () => (
   <div>
     <Box bg="#DEE1F7" px="20">
       <Flex display="flex" flexDirection='row' flexWrap="wrap">
-      <Box margin="auto" h={200}>
+      <Box margin="auto" h={200} mb="-.1" pt={[ 10, 1 ]}> 
           <Box margin="auto" pt={[ 10, 1 ]}>
             <Text fontSize={[ 'sm', 'md', 'lg']} textAlign="left">girl genius x command tech</Text>
             <Text fontSize={['3xl', '4xl', '6xl']} fontWeight="extrabold">InnovatHer</Text>
