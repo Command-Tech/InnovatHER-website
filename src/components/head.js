@@ -14,7 +14,7 @@ const Head = () => {
             <meta property="og:description" content="Command Tech x Girl Genius Community Highlights Project." />
 
             {/* Twitter Card tags */}
-            <meta name="twitter:title" content="Ella | Portfolio" />
+            <meta name="twitter:title" content="InnovatHER | Community Highlights" />
             <meta name="twitter:description" content="Command Tech x Girl Genius Community Highlights Project." />
         </Helmet>
     )
