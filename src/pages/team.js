@@ -23,6 +23,7 @@ export default function Submit() {
                     <TeamCard pic="https://girlgeniusmag.tech/headshots/Fara%20Yan.jpeg" name="Fara Yan" role="Events at Girl Genius" pronouns="she/her" />
                     <TeamCard pic="https://firebasestorage.googleapis.com/v0/b/give-me-files-21eaa.appspot.com/o/Files%2F1231615610140319?alt=media&token=0ebcd9c8-5fbb-4ce8-8d85-0fd68bfbd196" name="Belle See" role="Lead Director at Command Tech" pronouns="she/her" />
                     <TeamCard name="Ella" role="Web Developer" pronouns="she/her" />
+                    <TeamCard pic="https://cdn.discordapp.com/attachments/820189023384633344/821883741701013504/FullSizeRender.jpeg" name="Susan Zhang" role="Logistics at Command Tech" pronouns="she/her" />
                 </Flex>
             </Box>
             <Footer />
