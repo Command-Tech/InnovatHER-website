@@ -6,7 +6,7 @@ const TeamCard = ({ pic, name, role, bio, pronouns }) => (
     <ChakraProvider>
               <Box w="30rem" m={5}>
                 <HStack>
-                    <Image src={pic} borderRadius="50%" alt="Heashot" w="8rem" boxShadow="lg" fallbackSrc={FallbackPfp} />
+                    <Image src={pic} borderRadius="50%" alt="Heashot" w="8rem" boxShadow="lg" _hover={{ transform: "scale(1.05)" }} fallbackSrc={FallbackPfp} />
                     <VStack alignItems="left">
                       <Text fontSize="lg">{name}</Text>
                       <Text>{pronouns}</Text>
