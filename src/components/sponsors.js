@@ -1,6 +1,5 @@
-import { ChakraProvider, SimpleGrid, Box, Image } from "@chakra-ui/react"
+import { ChakraProvider, SimpleGrid, Image } from "@chakra-ui/react"
 import React from "react"
-import { Link } from "gatsby"
 
 const Sponsors = () => (
   <ChakraProvider>
