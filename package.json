@@ -21,7 +21,7 @@
     "@fontsource/montserrat": "^4.2.2",
     "@react-icons/all-files": "^4.1.0",
     "framer-motion": "^3.10.0",
-    "gatsby": "^3.0.1",
+    "gatsby": "^3.2.1",
     "gatsby-plugin-react-helmet": "^4.0.0",
     "gatsby-plugin-scroll-reveal": "0.0.7",
     "gatsby-plugin-smoothscroll": "^1.2.0",
