@@ -27,7 +27,7 @@ export default function Home() {
             </h1>
             <button className="rounded-full text-white font-montserrat bg-blue-400 px-5 py-1 shadow-md transition duration-500 ease-in-out transform hover:-translate-y-1 hover:scale-110">
               <Link href="/">
-                <a>Get started</a>
+                <a className="text-white hover:text-white hover:no-underline">Get started</a>
               </Link>
             </button>
           </div>
