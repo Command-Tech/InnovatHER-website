@@ -6,8 +6,8 @@ import { useEffect } from "react"
 const links = [
   { label: "Home", href: "/" },
   { label: "Guidelines", href: "/guidelines" },
-  { label: "Gallery", href: "/" },
-  { label: "Contact", href: "/" },
+  { label: "Gallery", href: "https://airtable.com/shrMBfy9t74j8PAxc" },
+  { label: "Contact", href: "mailto:info@commandtech.codes" },
 ]
 
 export default function Nav() {
@@ -16,15 +16,17 @@ export default function Nav() {
     console.log("https://ella.is-a.dev")
   })
   return (
-    <nav className="dark:text-white">
-      <ul className="flex flex-wrap sm:justify-between items-start sm:items-center p-8 mt-6 sm:mt-0">
+    <nav className="dark:text-white font-montserrat text-semibold hover:no-underline">
+      <ul className="flex flex-wrap items-start sm:items-center p-8 mt-6 sm:mt-0">
         <li></li>
-        <ul className={`mx-auto sm:mx-0 flex flex-row space-x-1 md:space-x-5`}>
+        <ul
+          className={`mx-auto sm:mx-0 flex flex-wrap md:flex-row md:space-x-5`}
+        >
           {links.map(({ href, label }) => (
             <li className="self-center" key={`${href}${label}`}>
               <Link href={href}>
                 <a
-                  className={`px-4 py-2 rounded hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10`}
+                  className={`px-4 py-2 rounded hover:bg-black dark:hover:bg-white hover:bg-opacity-10 dark:hover:bg-opacity-10 hover:no-underline hover:text-gray-700`}
                 >
                   {label}
                 </a>
