@@ -43,7 +43,7 @@ export default function Guidelines() {
           </div>
           <div>
             <h2>👩🏽‍💻 Eligibility</h2>
-            <ul role="list" className="list-disc list-inside font-openSans">
+            <ul role="list" className="list-disc list-inside font-openSans text-lg">
               <li>Identify as female or nonbinary (trans-inclusive)</li>
               <li>Be a high school or college student</li>
               <li>
