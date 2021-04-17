@@ -19,8 +19,8 @@ export default function Guidelines() {
         </p>
       </div>
       <main>
-        <section className="-mt-8">
-          <div>
+        <section className="-mt-14">
+          <section>
             <h2>👋🏼 Hey there!</h2>
             <p>
               We're super excited that you're interested in participating in
@@ -29,8 +29,8 @@ export default function Guidelines() {
               small! We are confident that anyone can pursue careers in STEAM
               and challenge conventional gender standards.
             </p>
-          </div>
-          <div>
+          </section>
+          <section>
             <h2>🤔 Wait... but why?</h2>
             <p>
               Sometimes, all the big accomplishments are celebrated so much that
@@ -40,10 +40,13 @@ export default function Guidelines() {
               STEAM journey, Girl Genius and Command Tech want to recognize the
               steps you are taking to build your dream projects with InnovatHER.
             </p>
-          </div>
+          </section>
           <div>
             <h2>👩🏽‍💻 Eligibility</h2>
-            <ul role="list" className="list-disc list-inside font-openSans text-lg">
+            <ul
+              role="list"
+              className="list-disc list-inside font-openSans text-lg"
+            >
               <li>Identify as female or nonbinary (trans-inclusive)</li>
               <li>Be a high school or college student</li>
               <li>
@@ -68,6 +71,13 @@ export default function Guidelines() {
               </li>
             </ul>
           </div>
+        </section>
+        <section>
+          <h2>⭐ Prizes</h2>
+          <p>
+            Four entries will be chosen to win $250 worth of coding classes from
+            our generous sponsor SiliconValley4U!
+          </p>
         </section>
         <section>
           <h2>❓ FAQ</h2>
