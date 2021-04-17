@@ -70,6 +70,10 @@ export default function Guidelines() {
           </div>
         </section>
         <section>
+          <h2>⭐ Prizes<h2>
+          <p>Four entries will be chosen to win $250 worth of coding classes from our generous sponsor SiliconValley4U!</p>
+        </section>
+        <section>
           <h2>❓ FAQ</h2>
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Question title="What should I submit?">
