@@ -63,9 +63,9 @@ export default function Home() {
         <section>
           <h2>Get Started</h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Step icon="/read.png" text="1. Read the guidelines" />
-            <Step icon="/send.png" text="2. Submit a project" />
-            <Step icon="/book.png" text="3. View the gallery" />
+            <Step link="/guidelines" icon="/read.png" text="1. Read the guidelines" />
+            <Step link="https://airtable.com/shrxwr2YZHePwD5wz" icon="/send.png" text="2. Submit a project" />
+            <Step link="https://airtable.com/shrMBfy9t74j8PAxc" icon="/book.png" text="3. View the gallery" />
           </div>
         </section>
         <section>

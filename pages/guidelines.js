@@ -14,7 +14,7 @@ export default function Guidelines() {
         <p className="text-center mx-8 md:mx-24">
           Interested in participating? Get started here by reading the
           guidelines below. You can submit a project{" "}
-          <Link href="https://airtable.com/shrxwr2YZHePwD5wz">here</Link>{" "}
+          <Link href="https://airtable.com/shrxwr2YZHePwD5wz"><a>here</a></Link>{" "}
           afterwards!
         </p>
       </div>
@@ -84,7 +84,8 @@ export default function Guidelines() {
           <div className="mt-4 grid grid-cols-1 md:grid-cols-2 gap-10">
             <Question title="What should I submit?">
               Check out our notion page for project tutorials, ideas, and other
-              resources you can use to create your project.
+              resources you can use to create your project. Check out the notion page{" "}
+          <Link href="https://www.notion.so/InnovatHER-resources-b144a6070e0f46f4ac0409c963cf4ad5"><a>here</a></Link>
             </Question>
             <Question title="Can I submit multiple projects?">
               Yes, you can submit multiple projects, but are focusing on the
@@ -99,7 +100,7 @@ export default function Guidelines() {
               have any questions or concerns!
             </Question>
             <Question title="How can I view everyone else's projects?">
-              View projects on the gallery <Link href="/">here</Link>!
+              View projects on the gallery <Link href="https://airtable.com/shrMBfy9t74j8PAxc"><a>here</a></Link>!
             </Question>
             <Question title="I have another question.">
               Feel free to ask us on Slack or Discord, or email
