@@ -53,7 +53,7 @@ export default function Home() {
                 there are prizes!
               </p>
               <br></br>
-              <p><b>Submit your project by April 30 11:50pm PDT</b></p>
+              <p><b>Submit your project by April 30, 11:50pm PDT.</b></p>
             </div>
             <div>
               <img
