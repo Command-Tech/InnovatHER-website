@@ -7,7 +7,6 @@ const links = [
   { label: "Home", href: "/" },
   { label: "Guidelines", href: "/guidelines" },
   { label: "Gallery", href: "https://airtable.com/shrMBfy9t74j8PAxc" },
-  { label: "Submit", href: "https://airtable.com/shrxwr2YZHePwD5wz" },
   { label: "Contact", href: "mailto:info@commandtech.codes" },
 ]
 
