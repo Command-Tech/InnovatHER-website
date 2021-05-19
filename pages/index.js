@@ -7,10 +7,11 @@ import Footer from "../components/footer"
 import { AiOutlineSlack } from "react-icons/ai"
 import { FaDiscord } from "react-icons/fa"
 import Step from "../components/step"
+import Winner from "../components/winner"
 
 export default function Home() {
   useEffect(() => {
-    console.log("Ella was here. https://ella.is-a.dev")
+    console.log("Ella was here. https://ella.cx")
   })
 
   return (
@@ -53,7 +54,9 @@ export default function Home() {
                 there are prizes!
               </p>
               <br></br>
-              <p><b>Submit your project by April 30, 11:50pm PDT.</b></p>
+              <p>
+                <b>Thanks for participating in this year's event!</b>
+              </p>
             </div>
             <div>
               <img
@@ -65,25 +68,42 @@ export default function Home() {
           </div>
         </section>
         <section>
-          <h2>Get Started</h2>
-          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <Step
-              link="/guidelines"
-              icon="/read.png"
-              text="1. Read the guidelines"
-            />
-            <Step
-              link="https://airtable.com/shrxwr2YZHePwD5wz"
-              icon="/send.png"
-              text="2. Submit a project"
-            />
-            <Step
+          <h2 className="leading-loose">Winners</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <Winner
+              src="https://cdn.discordapp.com/attachments/820189023384633344/844479367236943902/unknown.png"
+              authorName="Sophie R Krajmalnik"
+              projectName="Optimizing Automotive Seating Position"
               link="https://airtable.com/shrMBfy9t74j8PAxc"
-              icon="/book.png"
-              text="3. View the gallery"
+            />
+            <Winner
+              src="https://dl.airtable.com/.attachmentThumbnails/02c75508fb697a67e80984f8fdb7f38d/7efa132c"
+              authorName="Tiya Madhavan"
+              projectName="The Mask of 2020"
+              link="https://airtable.com/shrMBfy9t74j8PAxc"
+            />
+            <Winner
+              src="https://dl.airtable.com/.attachmentThumbnails/275d7d35ca3f645cd2e7b203ee17ece5/625736c0"
+              authorName="Tiffany Yu"
+              projectName="Modem Health"
+              link="https://airtable.com/shrMBfy9t74j8PAxc"
+            />
+            <Winner
+              src="https://cloud-5ydsuceme-hack-club-bot.vercel.app/0img_0325.png"
+              authorName="Jyothikaa Ramann"
+              projectName="CarC SPY: AI-based Biosensor for Early Cancer Detection"
+              link="https://projectboard.world/isef/project/bchm012---ai-based-biosensor-for-early-cancer-detection?rc=46080c52-5f16-498e-8266-171fa3e62910"
             />
           </div>
         </section>
+        {/* <section>
+          <h2>Get Started</h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            <Step icon="/read.png" text="1. Read the guidelines" />
+            <Step icon="/send.png" text="2. Submit a project" />
+            <Step icon="/book.png" text="3. View the gallery" />
+          </div>
+        </section> */}
         <section>
           <h2>Connect</h2>
           <p className="pb-4">

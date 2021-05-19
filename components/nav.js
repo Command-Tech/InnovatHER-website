@@ -7,13 +7,12 @@ const links = [
   { label: "Home", href: "/" },
   { label: "Guidelines", href: "/guidelines" },
   { label: "Gallery", href: "https://airtable.com/shrMBfy9t74j8PAxc" },
-  { label: "Contact", href: "mailto:info@commandtech.codes" },
 ]
 
 export default function Nav() {
   // const { theme, setTheme } = useTheme()
   useEffect(() => {
-    console.log("https://ella.is-a.dev")
+    console.log("https://ella.cx")
   })
   return (
     <nav className="dark:text-white font-montserrat text-semibold hover:no-underline">
