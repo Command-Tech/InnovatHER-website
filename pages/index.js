@@ -15,14 +15,18 @@ export default function Home() {
   })
 
   return (
-    <div className="dark:text-white dark:bg-black">
+    <div className="dark:text-white dark:bg-gray-700">
       <HeadObject />
       <Nav />
       <main className="p-8 md:p-24">
         <section className="flex flex-col md:flex-row items-center space-x-10 bg-purple-200 -mx-8 md:-mx-24 pt-24 -mt-48">
           <div className="space-y-5 p-8 md:p-24">
-            <p className="-mb-5">Girl Genius x Command Tech</p>
-            <h1 className="text-left text-5xl md:text-7xl">InnovatHER</h1>
+            <p className="-mb-5 dark:text-gray-600">
+              Girl Genius x Command Tech
+            </p>
+            <h1 className="text-left text-5xl md:text-7xl dark:text-gray-600">
+              InnovatHER
+            </h1>
             <h1 className="text-left font-semibold text-gray-600 text-2xl md:text-3xl">
               community highlights
             </h1>
@@ -137,7 +141,7 @@ export default function Home() {
               website="https://girlgeniusmag.tech"
             />
             <Sponsor
-              logo="https://static.wixstatic.com/media/03c756_20f50deab67a4fc5a466bb41d3c4ea2e~mv2.png/v1/fill/w_344,h_306,al_c,q_95/03c756_20f50deab67a4fc5a466bb41d3c4ea2e~mv2.webp"
+              logo="https://static.wixstatic.com/media/03c756_20f50deab67a4fc5a466bb41d3c4ea2e~mv2.png/v1/fill/w_344,h_306,al_c/03c756_20f50deab67a4fc5a466bb41d3c4ea2e~mv2.png"
               name="Silicon Valley 4 u"
               website="https://www.siliconvalley4u.com/"
             />
